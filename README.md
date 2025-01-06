@@ -45,3 +45,6 @@ A tool for VCBStudio Source，sort session and SPs files
 ## 使用方法
 将VCBStudioTool.sh文件第13、14行修改为自己的目录，然后运行即可
 
+## 致谢
+感谢[mikusa](https://www.himiku.com/archives/how-i-organize-my-animation-library.html)提供的整理思路
+
