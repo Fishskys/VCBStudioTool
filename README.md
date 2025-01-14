@@ -63,3 +63,6 @@ A tool for VCBStudio Source，sort session and SPs files
 
 4.新增ignore_dirs，可忽略多个文件夹
 
+## 致谢
+感谢[mikusa](https://www.himiku.com/archives/how-i-organize-my-animation-library.html)提供的整理思路
+
