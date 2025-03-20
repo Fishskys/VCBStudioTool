@@ -3,9 +3,12 @@
 
 A tool for VCBStudio Source，sort session and SPs files
 
+
 ## 功能
 * 批量整理剧集文件
 * 按照PLEX能识别的方式分三类（Interviews、Trailers、Other）整理SPs
+* 对目录和文件重命名
+
 整理前文件结构
 
 | PLEX文件夹 | 特典分类名称                                        |
@@ -43,25 +46,14 @@ A tool for VCBStudio Source，sort session and SPs files
 ```
 
 ## 使用方法
-**建议硬链接后使用**
+**建议结合硬链接工具如Hlink一同使用以筛选不需要整理的文件**
 
-默认重命名功能关闭，如需开启，请修改ifRename和ifRenameSPs为1
+用户配置文件为usr.conf，根据提示修改配置，将VCBStudioTool.sh与usr.conf放在同一目录下运行即可。
 
-下载VCBStudioTool.sh文件，修改VCBStudio_dir、ignore_dirs、ifRename和ifRenameSPs，然后运行即可。
+默认重命名功能关闭，如需开启，按照注释修改usr.conf配置文件
 
 
-
-## 更新日志
-### 2025.1.14
-新增功能：
-
-1.支持各种不同深度的文件夹，只需将所有资源文件放在VCBStudio DIR即可
-
-2.对文件夹重命名，默认格式：重命名前:[VCBStudio] xx [type] 重命名后:xx [type]
-
-3.对文件重命名，举例：重命名前:[DMG&VCB-Studio] Tenki no Ko [Ma10p_1080p][x265_flac].mka 重命名后:Tenki no Ko [Ma10p_1080p].mka，即保留基本命名和和剧集数/文件信息（其实是剧集名字后第一个中括号）
-
-4.新增ignore_dirs，可忽略多个文件夹
+## [更新日志](./updatelog.md)
 
 ## 致谢
 感谢[mikusa](https://www.himiku.com/archives/how-i-organize-my-animation-library.html)提供的整理思路
